@@ -1,0 +1,104 @@
+*{
+        box-sizing: border-box;
+}
+body{
+        background-image:url(Group_1.png);
+        background-size: cover; 
+        background-repeat:no-repeat ;
+}
+.container{
+         display: flex;
+        justify-content: space-between;
+}
+.mini-box{
+        width: 169px;
+        height: 66px;
+        background-image: url(logo.png);
+        background-repeat: no-repeat;
+        margin-left: 50px;
+        margin-bottom: 50px;
+}
+.navigacia{
+       display: flex;
+       padding-right: 100px;
+       gap: 20px;
+}
+.login{
+        width: 55px;
+        height: 42px;
+        font-family: 'Sriracha';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 42px;
+        color: #964A7A;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.cart{
+        width: 83px;
+        height: 42px;
+        font-family: 'Sriracha';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 42px;
+        color: #964A7A;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.contact{
+        width: 116px;
+        height: 42px;
+        font-family: 'Sriracha';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 42px;
+        color: #964A7A;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.text-container{
+        width: 540px;
+        height: 192px;
+        left: 144px;
+        top: 246px;
+        font-family: 'Sriracha';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 64px;
+        letter-spacing: 0.08em;
+        color: #964A7A;
+        padding-left: 150px;
+        padding-top: 50px;
+}
+button{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 31px;
+        gap: 10px;
+        position: absolute;
+        width: 342px;
+        height: 93px;
+        left: 138px;
+        top: 498px;
+        background: #E574BC;
+        border: 1px solid #EF94D5;
+        box-shadow: 0px 4px 4px rgba(239, 148, 213, 0.72);
+        border-radius: 100px;
+        font-family: 'Sriracha';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 57px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+}
